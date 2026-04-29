@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from '../assets/Logo.png'; 
-import '/src/styles/Navbar.css';
+import '../styles/Navbar.css';
 export default function Navbar(){
     const [isOpen,setIsOpen]= useState(false);
 
@@ -16,7 +16,7 @@ export default function Navbar(){
              >
             {isOpen ? '✕' : '☰'}
             </button>
-            <ul className={`nav-link ${isOpen ? 'open':''}`}>
+            <ul className={`nav-links ${isOpen ? 'open':''}`}>
                 <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
                 <li><Link to="/shop" onClick={() => setIsOpen(false)}>Shop</Link></li>
                 <li><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
