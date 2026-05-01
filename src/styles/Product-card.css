@@ -9,6 +9,8 @@
   width: 100%;
   aspect-ratio: 3/4;
   overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgb(151, 151, 150);
   background-color: #f0f0f0;
 }
 
@@ -28,7 +30,7 @@
 }
 
 .product-info h3 {
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -36,6 +38,16 @@
 }
 
 .product-info p {
-  font-size: 25px;
+  font-size: 15px;
   color: #000000;
+}
+@media (min-width: 768px) {
+  .product-info h3{
+    padding: 0 5px;
+    font-size: 35px;
+  }
+  .product-info p{
+    padding:0 5px;
+    font-size: 30px;
+  }
 }
