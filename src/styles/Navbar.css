@@ -71,7 +71,9 @@
   .hamburger {
     display: none;
   }
-
+  .navbar-logo{
+    height: 120px;
+  }
   .nav-links {
     display: flex;
     flex-direction: row;
@@ -85,6 +87,7 @@
   .nav-links li a {
     padding: 0;
     border: none;
-    font-size: 14px;
+    font-size: 30px;
+    padding: 10px;
   }
 }

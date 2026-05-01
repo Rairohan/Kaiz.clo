@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Your chosen font', sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: var(--white);
   color: var(--black);
 }

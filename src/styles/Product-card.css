@@ -28,7 +28,7 @@
 }
 
 .product-info h3 {
-  font-size: 14px;
+  font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -36,6 +36,6 @@
 }
 
 .product-info p {
-  font-size: 13px;
-  color: #555;
+  font-size: 25px;
+  color: #000000;
 }
